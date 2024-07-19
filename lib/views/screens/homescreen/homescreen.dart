@@ -116,7 +116,7 @@ class _HomescreenState extends State<Homescreen> {
                       _events.add(Event.fromQuerySnapshot(each));
                     }
                     return ListView.builder(
-                      itemExtent: 120.0,
+                      itemExtent: 130.0,
                       itemCount: _events.length,
                       itemBuilder: (context, index) {
                         final event = _events[index];
