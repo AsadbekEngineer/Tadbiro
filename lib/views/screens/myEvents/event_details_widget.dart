@@ -16,7 +16,6 @@ class EventDetailsWidget extends StatefulWidget {
 class _EventDetailsWidgetState extends State<EventDetailsWidget> {
   late GoogleMapController mapController;
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
