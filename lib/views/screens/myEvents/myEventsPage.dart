@@ -148,7 +148,7 @@ class _EventItemState extends State<EventItem> {
       child: Container(
         margin: EdgeInsets.only(bottom: 10),
         padding: EdgeInsets.all(5),
-        height: 90,
+        height: 110,
         width: double.infinity,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
@@ -204,7 +204,7 @@ class _EventItemState extends State<EventItem> {
               ],
             ),
             SizedBox(
-              height: 90,
+              height: 110,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

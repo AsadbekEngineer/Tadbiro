@@ -19,6 +19,7 @@ class _EventDetailsWidgetState extends State<EventDetailsWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
